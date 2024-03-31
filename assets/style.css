@@ -1,0 +1,1439 @@
+@import url("./font.css");
+@import url(./fonts/Manrope-Medium.ttf);
+@import url(./fonts/Manrope-Regular.ttf);
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "NeutralFaceRegular";
+    color: black;
+}
+body{
+    background-color: #fff;
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+.heading h2{
+    font-size: 70px;
+}
+.section-monochrome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+.section-monochrome .language{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+path {
+    fill:black;
+}
+.section-monochrome .language .fa-globe{
+    width: 15px;
+    height: 15px;
+    background-color: black;
+}
+.section-monochrome .language a{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.section-monochrome .language a:hover{
+    color: rgb(247, 15, 150);
+}
+.section-monochrome a{
+    font-size: 18px;
+}
+.section-monochrome .icons img{
+    margin-right: 20px;
+    width: 17px;
+    height: 17px;
+}
+.line{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.buyers{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.buyers a{
+    margin-right: 40px;
+}
+.buyers a:hover{
+    text-decoration: underline;
+}
+.monoxrome .mono-txt h1{
+    font-size: 138px;
+    margin-right: 25px;
+}
+.mono-txt{
+    width: 1160px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding-top: 90px;
+}
+.monoxrome .mono-txt p{
+    font-size: 18px;
+    font-family: "Manrope-Medium";
+    padding-bottom: 28px;
+}
+.mono-kartinki{
+    margin-top: 20px;
+}
+.mono-kartinki .img1{
+    margin-right: 20px;
+}
+.mono-all .heading h2{
+    padding: 170px 0  80px 0;
+}
+.separations{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 165px;
+}
+.separations .separation{
+    margin-right: 35px;
+}
+.separations .separation h6{
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: "Manrope-Medium";
+}
+.new-collection{
+    height: 1100px;
+    background: url(../assets/img/6.jpg);
+    background-position-y: 0;
+    background-size: cover;
+}
+.new-collection img{
+    width: 1900px;
+    position: absolute;
+    z-index: -10000;
+}
+.new-collection .heading h2{
+    color: #fff;
+}
+.new-collection .heading{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.new-collection .heading h6{
+    font-size: 22px;
+    color: #fff;
+    font-family: "Manrope-Regular";
+    width: 700px;
+    margin: 30px 0 40px 0;
+}
+.new-collection .heading button{
+    width:270px;
+    height: 64px;
+}
+.new-collection .heading button:hover{
+background-color: #a1a1a1;
+color: #fff;
+border: 2px solid #fff;
+}
+.new-items{
+    margin: 184px 0 ;
+}
+.new-items h2{
+    font-size: 70px;
+}
+.new-items .winter{
+    padding-left: 450px;
+    margin-bottom: 58px;
+}
+.color-options{
+    grid-template: repeat(2, 220px)/ 1fr 1fr 1fr ;
+    gap: 20px;
+    display: grid;
+}
+.color-options .option p{
+    font-size: 22px;
+    font-family:  "Manrope-Medium";
+    margin-top: 10px;
+}
+.color-options .option:nth-child(1){
+    grid-area: 1 / 1 / 4 / 2;
+}
+.color-options .opt1{
+    background: url(./img/7.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.color-options .opt2{
+    background: url(./img/8.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.color-options .opt3{
+    background: url(./img/9.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.color-options .opt4{
+    background: url(./img/10.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.color-options .option:nth-child(3){
+    padding-top: 40px;
+}
+.color-options .option:nth-child(4){
+    grid-area: 1 / 3 / 4 / 4;
+}
+.color-green{
+    margin: 122px 0;
+}
+.green{
+    display: flex;
+    flex-direction: row;
+}
+.green-txt{
+    margin-left: 90px;
+    width: 50%;
+}
+.green-txt .heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.green-txt .estimation h1{
+    font-size: 52px;
+}
+.green-txt .heading .estimation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.green-txt .heading .estimation img{
+    width: 15px;
+    height: 15px;
+}
+.green-txt .heading .estimation p{
+    font-size: 14px;
+    font-family: "Manrope-Regular";
+}
+.green-txt  h5{
+    margin-top: 10px;
+    font-family: "Manrope-Regular";
+    font-size: 22px;
+}
+.razmer p{
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+}
+.razmer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.razmer u{
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+    text-decoration: underline;
+}
+.promokod{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.promokod h3{
+    font-family: "NeutralFaceRegular";
+    font-size: 38px;
+    margin-right: 10px;
+}
+.color-green button h6{
+    font-size: 14px;
+    color: #fff;
+}
+.color-green button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: black;
+    padding: 20px 0 20px 0;
+    color: #fff;
+}
+.color-green button:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid black;
+}
+.green-txt input{
+    border: 1px solid rgb(192, 192, 192);
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+}
+select{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: rgb(192, 192, 192);
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+    padding: 12px 0 12px 20px;
+    border: 1px solid rgb(190, 190, 190);
+    margin-top: 10px;
+}
+.green-txt .promokod{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.green-txt .promokod input{
+    border: 1px solid rgb(190, 190, 190);
+    width: 310px;
+    height: 50px;
+    padding: 20px;
+}
+.green-txt .promokod ::-webkit-input-placeholder{
+    color: rgb(190, 190, 190);
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+}
+.slider{
+    margin-top: 50px;
+}
+.slider label{
+    margin-right: 50px;
+}
+#inp1:checked ~  #label1,
+#inp2:checked ~  #label2,
+#inp3:checked ~  #label3{
+    text-decoration: underline;
+    color: black;
+}
+.slider input{
+    display: none;
+}
+.perecluch{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.linee{
+    width: 300%;
+    display: flex;
+}
+.text-block{
+    width: calc(100%/3);
+    transition: 1s;
+    font-size: 16px;
+    font-family: "Manrope-Regular";
+}
+#inp1:checked ~.perecluch .text-block{
+    transition: 1s;
+    transform: translateX(0);
+}
+#inp2:checked ~.perecluch .text-block{
+    transition: 1s;
+    transform: translateX(-100%);
+}
+#inp3:checked ~.perecluch .text-block{
+    transition: 1s;
+    transform: translateX(-200%);
+}
+.slider label{
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+    color: rgb(173, 172, 172);
+}
+.additional-inf{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0;
+    background-color: black;
+}
+.principles{
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+}
+.principle{
+    width:45%;
+    padding-right: 5%;
+}
+path {
+    fill: white;
+}
+.principle .fa-plane{
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+.principle .fa-lock{
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+.principle .fa-percent{
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+.principle .fa-square-envelope{
+    color: #fff;
+    height: 40px;
+    width: 40px;
+}
+.principle h5{
+    margin-top: 30px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.principle p{
+    font-family: "Manrope-Regular";
+    font-size: 16px;
+    color: #fff;
+}
+.inf-about-of-company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us{
+    display: flex;
+    flex-direction: row;
+    padding: 160px 0 160px 0;
+}
+.about-us h1{
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+.about-us p{
+    font-family: "Manrope-Regular";
+    font-size: 22px; 
+}
+.about-us .text{
+    padding-top: 90px;
+    width: 670px;
+    padding-left: 100px;
+}
+.subscription{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 160px 0 100px 0;
+}
+.subscription h2{
+    color: #fff;
+}
+.subscription .newsletter{
+    padding-left: 350px;
+}
+.regestration .article h5{
+    font-family: "Manrope-Regular";
+    font-size: 22px; 
+    color: #fff;
+    width: 600px;
+    margin-bottom: 55px;
+}
+.regestration{
+    display: flex;
+    flex-direction: row;
+    margin-top: 87px;
+}
+.subscription .regestration .regestration-field{
+    margin-left: 100px;
+    width: 50%;
+}
+.subscription .regestration .regestration-field input{
+    border: 1px solid rgb(110, 110, 110);
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin: 10px 0 20px 0;
+    padding-left: 20px;
+    color: #fff;
+}
+.subscription .regestration .regestration-field  ::-webkit-input-placeholder{
+    color: rgb(110, 110, 110);
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+}
+.subscription .regestration .regestration-field  p{
+    color: #fff;
+    font-family: "Manrope-Regular";
+    font-size: 14px;
+    padding: 0;
+}
+.subscription .regestration .regestration-field .vibors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .subscription .regestration .regestration-field .vibors .vibor{
+    display: flex;
+    flex-direction: row;
+  }
+.subscription .regestration .regestration-field .vibors .vibor input{
+    width: 20px;
+    height: 20px;
+    margin: 0 15px;
+}
+.subscription .regestration .regestration-field .vibors .vibor .radio-1{
+    margin-left: 0px;
+}
+input[type='radio'] {
+    accent-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+    background: transparent;
+  } 
+  .subscription .regestration .regestration-field .checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .subscription .regestration .regestration-field .checkbox p{
+    font-size: 15px;
+    color: #fff;
+    margin-left: 15px;
+  }
+  
+  .subscription .regestration .regestration-field .checkbox input{
+    accent-color: rgb(255, 255, 255);
+    background-color: black;
+    width: 20px;
+    height: 20px;
+  }
+  .subscription .regestration .regestration-field button{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    margin-top: 30px;
+  }
+  .subscription .regestration .regestration-field button:hover{
+    background-color: #a1a1a1;
+    color: #fff;
+    border: 2px solid #fff;
+}
+  footer{
+    background-color: black;
+  }
+  footer .line{
+    border-bottom: 1px solid #fff;
+    width: 100%;
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px 0;
+  }
+  .footer .mono p{
+    font-family: "Manrope-Regular";
+    font-size: 12px;
+    color: #fff;
+  }
+  footer .social-network{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  footer .social-network img{
+    margin-right: 10px;
+  }
+  footer .social-network .vk{
+    width: 40px;
+    height:40px;
+    border: 0.8px solid #fff;
+  }
+  .footer .privacy-policy a{
+    text-decoration: underline;
+    font-family: "Manrope-Regular";
+    font-size: 12px;
+    color: #fff;
+  }
+
+  @media (max-width: 1200px) {
+    .container{
+        width: 1140px;
+    }
+    /* *{
+        border: 1px solid red;
+    } */
+    .monoxrome .mono-txt h1{
+        margin-right: 20px;
+        font-size: 130px;
+    }
+    .mono-kartinki .img1 {
+        margin-right: 20px;
+        width: 820px;
+        height: 448px;
+    }
+    .new-collection {
+        height: 944px;
+    }
+    .green-txt {
+        margin-left: 50px;
+    }
+    .separations .separation img{
+        width: 355px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container{
+        width: 960px !important;
+    }
+    .monoxrome .mono-txt{
+        padding-left: 59px;
+        width: auto;
+    }
+    .monoxrome .mono-txt h1 {
+        margin-right: 20px;
+        font-size: 90px;
+    }
+    .monoxrome .mono-txt p {
+        font-size: 16px;
+        width: 270px;
+    }
+    .mono-kartinki {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .mono-kartinki .img2{
+        margin-top: 70px;
+    }
+    .new-items .winter{
+        padding-left: 260px;
+        margin-bottom: 58px;
+    }
+    .separations .separation img {
+        width: 297px;
+    }
+    .mono-all .heading h2 {
+        padding: 170px 0 80px 55px;
+    }
+    .separations {
+        margin: 230px auto;
+    }
+    .separations .separation3{
+        margin-right: 0px !important;
+    }
+    .new-collection {
+        height: 1200px;
+    }
+    .color-options .option{
+        margin-top: 20px;
+    }
+    .color-options {
+        grid-template: repeat(3, 220px)/ 1fr 1fr 1fr;
+        gap: 35px;
+        padding-left: 250px;
+    }
+    .color-options .option:nth-child(4) {
+        grid-area: 2 / 2 / 4 / 3;
+    }
+    .color-options .option:nth-child(3) {
+        grid-area: 3/ 1 / 4 / 2;
+    }
+    .color-options .option:nth-child(1) {
+        grid-area: 1 / 1 / 3 / 2;
+    }
+    .color-options .option:nth-child(2) {
+        grid-area: 1 / 2.5 / 2 / 4;
+    }
+    .color-green {
+        margin: 300px 0;
+    }
+    .green{
+        display: flex;
+        align-items: center;
+    }
+    .green .picture img{
+        width: 100%;
+        height: 670px;
+    }
+    .promokod h3 {
+        font-size: 19px;
+    }
+    .subscription .newsletter {
+        padding-left: 150px;
+    }
+    .regestration .article h5 {
+        font-size: 18px;
+        width: 520px;
+    }
+    .regestration .article img{
+        width: 520px;
+    }
+    .subscription .regestration .regestration-field {
+        margin-left: 60px;
+        width: 50%;
+    }
+    .subscription .regestration .regestration-field .vibors .vibor input {
+        width: 13px;
+        height: 20px;
+        margin: 0 15px;
+    }
+    .subscription .regestration .regestration-field .vibors .vibor{
+        height: 39px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        width:  740px !important;
+    }
+    .heading h2 {
+        font-size: 55px;
+    }
+    .monoxrome .mono-txt h1 {
+        margin-right: 20px;
+        font-size: 75px;
+    }
+    .mono-kartinki .img1 {
+        margin-right: 0px;
+        width: 600px;
+        height: 348px;
+    }
+    .mono-kartinki .img2 {
+        margin-top: 40px;
+        width: 230px;
+        height: 349px;
+    }
+    .mono-all .heading{
+        text-align: center;
+    }
+    .mono-all .heading h2 {
+        padding: 60px 0 60px 0;
+    }
+    .separations{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        align-items: center;
+    }
+    .separations .separation {
+        margin-right: 0px;
+    }
+    .separations .separation img {
+        width: 290px;
+        height: 280px;
+    }
+    .new-collection .heading h6 {
+        font-size: 18px;
+        width: 570px;
+    }
+    .new-collection .headingl {
+        padding-top: 250px;
+    }
+    .new-items .winter {
+        padding-left: 196px;
+        margin-bottom: 58px;
+    }
+    .color-options{
+        margin-top: 17%;
+        padding-left: 2.5%;
+    }
+    .color-options .option:nth-child(3) {
+        padding-top: 0px;
+    }
+    .color-options .option{
+        background-size: cover;
+        width: 330px;
+        height: auto;
+    }
+    .green .picture img {
+        width: 100%;
+        height: 470px;
+    }
+    .principle h5 {
+        font-size: 14px;
+    }
+    .principle p {
+        font-size: 14px;
+    }
+    .principle .fa-plane {
+        height: 30px;
+    }
+    .about-us h1 {
+        font-size: 55px;
+    }
+    .about-us p {
+        font-size: 18px;
+    }
+    .about-us .text {
+        padding-top: 150px;
+        width: 350px;
+        padding-left: 10px;
+    }
+    .about-us .text {
+        padding-top: 40px;
+        width: 350px;
+        padding-left: 10px;
+    }
+    .subscription h1 {
+        font-size: 55px;
+    }
+    .subscription .newsletter {
+        padding-left: 136px;
+    }
+    .regestration .article h5 {
+        font-size: 16px;
+        width: 350px;
+    }
+    .regestration .article img {
+        width: 350px;
+        height: 270px;
+    }
+    .subscription .regestration .regestration-field input {
+        height: 30px;
+    }
+    .subscription .regestration .regestration-field p{
+        font-size: 12px;
+    }
+    .subscription .regestration .regestration-field button {
+        background-color: #fff;
+        width: 100%;
+        padding: 10px 0;
+        margin-top: 22px;
+    }
+    .footer p{
+        font-size: 10px;
+    }
+    .subscription {
+        padding: 160px 0 160px 0;
+    }
+    .footer {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .container{
+        width:  98% !important;
+    }
+   .heading h2{
+    font-size: 45px;
+   }
+    .section-monochrome a {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .section-monochrome .language a {
+        font-size: 12px;
+    }
+    .section-monochrome .icons img {
+        width: 15px !important;
+        height: 15px !important;
+    }
+    .buyers a {
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    .monoxrome .mono-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .monoxrome .mono-txt h1 {
+        margin-right: 0px;
+        font-size: 75px;
+    }
+    .mono-kartinki .img1 {
+        margin-right: 0px;
+        width: 480px;
+        height: 300px;
+    }
+    .mono-kartinki .img2 {
+        margin-top: 20px;
+        width: 200px;
+        height: 330px;
+    }
+    .separations .separation img {
+        width: 230px;
+        height: 230px;
+    }
+    .new-items .winter {
+        padding-left: 119px;
+        margin-bottom: 0px;
+    }
+    .color-options {
+        margin-top: 10px;
+        padding-left: 0px;
+    }
+    .color-options{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .color-options .option{
+        background-size: cover;
+        width: 330px;
+        height: 00px;
+        background-repeat: no-repeat;
+        margin-bottom: 250px;
+    }
+    .color-options .option .img7 {
+        width: 330px;
+        height: 300px;
+    }
+    .color-options .option .img10 {
+        width: 330px;
+        height: 300px;
+    }
+    .color-options .option:nth-child(1) {
+        grid-area: 1 / 1 / 1 / 4;
+    }
+    .color-options .option:nth-child(4) {
+        grid-area: 3 / 1 / 3 / 4;
+    }
+    .color-options .option:nth-child(3) {
+        grid-area: 4 / 1 / 4 / 4;
+    }
+    .color-options .option .opt{
+        width: 310px;
+        height: 220px;
+    }
+    .color-options {
+        gap: 55px;
+    }
+    .green{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .green-txt {
+        margin-left: 0px;
+        margin-bottom: 50px;
+        width: 70%;
+    }
+    .promokod h3 {
+        width: 200px;
+        font-size: 25px;
+        margin-right: 0px;
+    }
+    .color-green {
+        margin: 300px 0 100px 0;
+    }
+    .about-us {
+        flex-direction: column-reverse;
+        padding: 160px 0 160px 0;
+        align-items: center;
+    }
+    .about-us .text {
+        width: 90%;
+    }
+    .subscription .newsletter {
+        padding-left: 70px;
+    }
+    .regestration {
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+    }
+    .regestration .article{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .regestration .article img {
+        width: 550px; 
+         height: auto; 
+    }
+    .subscription .regestration .regestration-field {
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 70%;
+    }
+    .subscription .regestration .regestration-field input {
+        height: 50px;
+    }
+    .subscription .regestration .regestration-field button {
+        background-color: #fff;
+        width: 100%;
+        padding: 20px 0;
+        margin-top: 22px;
+    }
+    .subscription .regestration .regestration-field .vibors {
+        display: flex;
+        flex-direction: column;
+        align-items: start; 
+        margin: 20px 0;
+    }
+    .subscription .regestration .regestration-field .vibors .vibor {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .subscription .regestration .regestration-field .vibors .vibor{
+        margin: 8px 0px;
+    }
+    .subscription .regestration .regestration-field .vibors .vibor input {
+        margin: 0 8px 0 0 ;
+    }
+}
+
+@media (max-width: 480px) {
+    .container{
+        width:  98% !important;
+    }
+    .heading h2{
+        font-size: 30px;
+    }
+    .monoxrome .mono-txt h1 {
+        margin-right: 0px;
+        font-size: 60px;
+    }
+    .mono-kartinki .img1 {
+        margin-right: 0px;
+        width: 400px;
+        height: 240px;
+    }
+    .monoxrome .mono-txt {
+        padding-top: 10px;
+    }
+    .mono-kartinki .img1 {
+        width: 370px;
+        height: 220px;
+    }
+    .mono-kartinki{
+        margin-top: 0px;
+    }
+    .section-monochrome a {
+        font-size: 10px;
+    }
+    .section-monochrome .language a {
+        font-size: 10px;
+    }
+    .buyers a {
+        font-size: 10px;
+        margin-right: 20px;
+    }
+    .buyers {
+        padding: 7px;
+    }
+    .monoxrome .mono-txt h1 {
+        font-size: 55px;
+    }
+    .monoxrome .mono-txt p {
+        font-size: 14px;
+        width: 270px;
+    }
+    .mono-kartinki .img1 {
+        width: 360px;
+        height: 200px;
+    }
+    .mono-kartinki .img2 {
+        margin-top: 15px;
+        width: 200px;
+        height: 310px;
+    }
+    .mono-all .heading h2 {
+        padding: 110px 0 60px 0;
+    }
+    .mono-all .nazvanie h2 {
+        padding: 50px 0;
+    }
+    .separations .separation img {
+        width: 170px;
+        height: 170px;
+    }
+    .separations .separation h6 {
+        font-size: 16px;
+    }
+    .separations {
+        padding-bottom: 220px;
+    }
+    .new-items {
+        margin-top: 220px;
+    }
+    .new-collection {
+        background-size: 500px 300px;
+        background-repeat: no-repeat;
+        margin-top: 0px;
+        height: 300px;
+    }
+    .new-collection .heading {
+        padding-top: 10px;
+    }
+    .new-collection .heading h6 {
+        font-size: 14px;
+        width: 80%;
+        margin: 30px 0 20px 0;
+    }
+    .new-collection .heading button {
+        width: 120px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .new-items .winter {
+        text-align: end;
+        padding-left: 0px;
+    }
+    .color-options .option .opt {
+        width: 270px;
+        height: 180px;
+    }
+    .color-options .option p {
+        font-size: 18px;
+    }
+    .color-options .option {
+        width: 300px;
+        padding-left: 15px;
+        margin-bottom: 150px;
+    }
+    .color-options {
+        gap: 55px;
+    }
+    .green-txt {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    .green-txt h5 {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .razmer{
+        margin-top: 20px;
+    }
+    .promokod{
+        margin-top: 20px;
+    }
+    .promokod input{
+        width: 60% !important;
+    }
+    .promokod h3{
+        font-size: 20px;
+        width: 40%;
+    }
+    .slider {
+        margin-top: 20px;
+    }
+    .slider label {
+        margin-right: 20px;
+    }
+    .green .picture img {
+        width: 90%;
+        height: 459px;
+    }
+    .picture{
+        display: flex;
+        justify-content: center;
+    }
+    .green .picture img {
+        width: 90%;
+        height: 300px;
+    }
+    .color-green {
+        margin: 170px 0 50px 0;
+    }
+    .additional-inf {
+        padding: 70px 0;
+    }
+    .principles{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .principle {
+        width: 60%;
+        margin-top: 35px;
+        padding-right: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .principle p {
+        font-size: 16px;
+    }
+    .about-us {
+        padding: 20px 0;
+    }
+    .about-us h1 {
+        font-size: 45px;
+        padding-bottom: 20px;
+    }
+    .about-us .text {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .about-us img{
+        width: 270px;
+        height: 370px;
+    }
+    .subscription h1 {
+        font-size: 35px;
+    }
+    .subscription {
+        padding: 50px 0 90px 0;
+    }
+    .subscription .newsletter {
+        padding-left: 0px;
+        text-align: end;
+    }
+    .regestration .article img {
+        width: 375px;
+        height: auto;
+    }
+    .footer p {
+        font-family: "Manrope-Regular";
+        font-size: 10px;
+        color: #fff;
+    }
+    footer .social-network img {
+        width: 20px;
+        height: 20px;
+    }
+    footer .social-network .vk {
+        width: 20px;
+        height: 20px;
+    }
+    .footer .privacy-policy{
+    display: flex;
+    text-align: end;
+    }
+    .footer .mono p {
+        font-size: 9px;
+    }
+    .footer .privacy-policy a {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container{
+        width: 290px !important;
+        margin: auto;
+    }
+    .heading h2{
+        font-size: 25px;
+    }
+    .section-monochrome a {
+        font-size: 9px;
+    }
+    .section-monochrome .language a {
+        font-size: 9px;
+    }
+    .section-monochrome .icons img {
+        width: 12px !important;
+        height: 12px !important;
+        margin-right: 0px;
+    }
+    .section-monochrome .language img {
+        width: 12px !important;
+        height: 12px !important;
+    }
+    .buyers a {
+        font-size: 9px;
+        margin-right: 10px;
+    }
+    .monoxrome .mono-txt h1 {
+        font-size: 35px;
+    }
+    .monoxrome .mono-txt p {
+        font-size: 12px;
+        width: 237px;
+        padding-bottom: 15px;
+    }
+    .mono-kartinki .img1 {
+        width: 250px;
+        height: 160px;
+    }
+    .mono-kartinki .img2 {
+        margin-top: 20px;
+        width: 130px;
+        height: 200px;
+    }
+    .mono-all .heading h2 {
+        font-size: 25px;
+        padding: 60px 0 50px 0;
+    }
+    .separations {
+        padding-bottom: 0px;
+    }
+    .separations .separation h6 {
+        margin: 0 0 10px 0;
+    }
+    .new-collection .heading h6 {
+        margin: 30px 0 20px 0;
+        font-size: 12px;
+    }
+    .new-collection {
+        margin: 115px 0;
+    }
+    .new-items {
+        margin-top: 140px;
+    }
+    .color-options .option .opt{
+        width:200px;
+        height: 150px;
+    }
+    .color-options .option {
+        background-size: cover;
+        width: 250px;
+        height: 110px;
+        margin-bottom: 0px;
+    }
+    .color-options .option p {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    .color-options {
+        gap: 55px;
+    }
+    .color-green {
+        margin: 150px 0 100px 0;
+    }
+    .heading h1{
+        font-size: 25px;
+    }
+    .green-txt {
+        width: 80%;
+    }
+    .green-txt h5 {
+        font-size: 14px;
+    }
+    .razmer {
+        margin-top: 10px;
+    }
+    .razmer p {
+        font-family: "Manrope-Regular";
+        font-size: 11px;
+    }
+    .razmer u {
+        font-size: 11px;
+    }
+    select {
+        font-size: 11px;
+        padding: 5px 0 5px 15px;
+    }
+    .green-txt .promokod input {
+        border: 1px solid rgb(190, 190, 190);
+        width: 60%;
+        height: 0px;
+        padding: 15px;
+    }
+    .promokod h3 {
+        font-size: 18px;
+        width: 40%;
+    }
+    .green-txt .promokod ::-webkit-input-placeholder{
+        font-size: 11px;
+    }
+    .color-green button {
+        margin-top: 30px;
+        padding: 10px 0 10px 0;
+    }
+    .slider label{
+        font-size: 11px;
+        margin-right: 10px;
+    }
+    .text-block {
+        font-size: 13px;
+    }
+    .green .picture img {
+        width: 90%;
+        height: 320px;
+    }
+    .green-txt {
+        margin-bottom: 40px;
+    }
+    .additional-inf {
+        padding: 55px 0;
+    }
+    .about-us {
+        padding: 10px 0;
+    }
+    .about-us .text {
+        padding-left: 0px;
+    }
+    .about-us h1 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .about-us p {
+        font-size: 14px;
+    }
+    .about-us img{
+        width: 330px;
+        height: 550px;
+    }
+    .about-us img {
+        width: 280px;
+        height: 390px;
+    }
+    .subscription {
+        padding: 50px 0 90px 0;
+    }
+    .regestration .article{
+        margin-top: 15px;
+    }
+    .regestration .article h5 {
+        font-size: 13px;
+        width: 310px;
+        margin-bottom: 45px;
+    }
+    .regestration .article img {
+        width: 300px;
+        height: auto;
+    }
+    .subscription .regestration .regestration-field {
+        width: 75%;
+    }
+    .subscription .regestration .regestration-field input {
+        height: 40px;
+        margin: 10px 0;
+    }
+    .subscription .regestration .regestration-field  ::-webkit-input-placeholder{
+        font-size: 11px;
+    }
+    .subscription .regestration .regestration-field p {
+        font-size: 10px;
+    }
+    .subscription .regestration .regestration-field .vibor input {
+        margin: 0 5px;
+    }
+    .subscription .regestration .regestration-field .checkbox p {
+        font-size: 10px;
+    }
+    .subscription .regestration .regestration-field button {
+        padding: 15px 0;
+        font-size: 12px;
+    }
+    .footer .mono p {
+        font-size: 9px;
+    }
+    .footer .privacy-policy a {
+        font-size: 9px;
+    }
+    .footer {
+        padding: 30px 0;
+    }
+}
